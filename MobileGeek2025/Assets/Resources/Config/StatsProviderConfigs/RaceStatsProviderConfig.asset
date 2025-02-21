@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6f2af7ca3c370245a1239d79a5beec8, type: 3}
+  m_Name: RaceStatsProviderConfig
+  m_EditorClassIdentifier: 
+  <Dark>k__BackingField:
+    StrengthModifier: 4
+    IntelligenceModifier: 1
+    AgilityModifier: 1
+    Sprite: {fileID: 21300000, guid: 99be7ee1096037540aafa4d7f2244838, type: 3}
+  <High>k__BackingField:
+    StrengthModifier: 1
+    IntelligenceModifier: 3
+    AgilityModifier: 2
+    Sprite: {fileID: 21300000, guid: b23da58381e3e3343a94f2c014fad0af, type: 3}
+  <Wood>k__BackingField:
+    StrengthModifier: 3
+    IntelligenceModifier: 1
+    AgilityModifier: 2
+    Sprite: {fileID: 21300000, guid: 801de60509c4e3948a72fca97af1ab0a, type: 3}

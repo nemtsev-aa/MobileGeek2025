@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e571507d4d5fdeb49b393cba59658bc7, type: 3}
+  m_Name: CharacterModelFactory
+  m_EditorClassIdentifier: 
+  _modelConfigs:
+  - <Race>k__BackingField: 0
+    <Specialization>k__BackingField: 0
+    <ModelPrefab>k__BackingField: {fileID: 4116288389068944392, guid: 8c09d33232b8b9741a82523194a0e07b,
+      type: 3}
+  - <Race>k__BackingField: 0
+    <Specialization>k__BackingField: 1
+    <ModelPrefab>k__BackingField: {fileID: -8905304968464156915, guid: 21f5ae50e2e8b444a8edd02cbe4e94eb,
+      type: 3}
+  - <Race>k__BackingField: 0
+    <Specialization>k__BackingField: 2
+    <ModelPrefab>k__BackingField: {fileID: 8352987398756454300, guid: e799606ca2431c54a87354fcef9f0e52,
+      type: 3}
+  - <Race>k__BackingField: 1
+    <Specialization>k__BackingField: 0
+    <ModelPrefab>k__BackingField: {fileID: 1502471054667196365, guid: 203af929687ed474e9d7717d9b6c0880,
+      type: 3}
+  - <Race>k__BackingField: 1
+    <Specialization>k__BackingField: 1
+    <ModelPrefab>k__BackingField: {fileID: -618743140973550179, guid: b38481574d731324ca77cffb969c49d3,
+      type: 3}
+  - <Race>k__BackingField: 1
+    <Specialization>k__BackingField: 2
+    <ModelPrefab>k__BackingField: {fileID: 4498693291057485970, guid: 46bd7e69d38bda541b14709f7fc5632c,
+      type: 3}
+  - <Race>k__BackingField: 2
+    <Specialization>k__BackingField: 0
+    <ModelPrefab>k__BackingField: {fileID: -6684788638661226308, guid: 00f4a8fa410417e4098edaf3b5042315,
+      type: 3}
+  - <Race>k__BackingField: 2
+    <Specialization>k__BackingField: 1
+    <ModelPrefab>k__BackingField: {fileID: 5440477960775185363, guid: 8d588ebe093f97c408b9bc159113f6f2,
+      type: 3}
+  - <Race>k__BackingField: 2
+    <Specialization>k__BackingField: 2
+    <ModelPrefab>k__BackingField: {fileID: 292680547428132841, guid: fefa41c9d6791174aab1b070b5347c6d,
+      type: 3}
+  _auraConfigs:
+  - <PassiveAbility>k__BackingField: 0
+    <AuraPrefab>k__BackingField: {fileID: 1652143759095011288, guid: bc55c6b7fe90cb44ca23f42f2afe55d1,
+      type: 3}
+  - <PassiveAbility>k__BackingField: 1
+    <AuraPrefab>k__BackingField: {fileID: 1652143759095011288, guid: 0379eeec6600eec4e9766288b3a5b969,
+      type: 3}
+  - <PassiveAbility>k__BackingField: 2
+    <AuraPrefab>k__BackingField: {fileID: 1652143759095011288, guid: e64ab85052346a9458b49e891415dca2,
+      type: 3}

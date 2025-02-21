@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38fbde7f355258f4686777367ff1c5de, type: 3}
+  m_Name: PassiveAbilityStatsProviderConfig
+  m_EditorClassIdentifier: 
+  <StrengthBoost>k__BackingField:
+    StrengthModifier: 4
+    IntelligenceModifier: 1
+    AgilityModifier: 1
+    Sprite: {fileID: 21300000, guid: f3c0318a9d023bc4c8718e1b6551208c, type: 3}
+  <IntelligenceBoost>k__BackingField:
+    StrengthModifier: 1
+    IntelligenceModifier: 4
+    AgilityModifier: 1
+    Sprite: {fileID: 21300000, guid: 7d2dd586fbba69a469b523930ba9e492, type: 3}
+  <AgilityBoost>k__BackingField:
+    StrengthModifier: 1
+    IntelligenceModifier: 1
+    AgilityModifier: 4
+    Sprite: {fileID: 21300000, guid: bc4ae6da619042f4fb39e6828b9aa535, type: 3}

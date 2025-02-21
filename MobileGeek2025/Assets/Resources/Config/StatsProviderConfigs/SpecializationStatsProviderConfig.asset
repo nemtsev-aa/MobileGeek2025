@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49cf8881297326046a5d16c51537c053, type: 3}
+  m_Name: SpecializationStatsProviderConfig
+  m_EditorClassIdentifier: 
+  <Archer>k__BackingField:
+    StrengthModifier: 1
+    IntelligenceModifier: 2
+    AgilityModifier: 3
+    Sprite: {fileID: 21300000, guid: ff16f6f220eecbb428c505f3173c833e, type: 3}
+  <Mage>k__BackingField:
+    StrengthModifier: 1
+    IntelligenceModifier: 3
+    AgilityModifier: 2
+    Sprite: {fileID: 21300000, guid: 55e314f14fa92324e85897108ff432d7, type: 3}
+  <Warrior>k__BackingField:
+    StrengthModifier: 3
+    IntelligenceModifier: 1
+    AgilityModifier: 2
+    Sprite: {fileID: 21300000, guid: 868dd578d822c34449a2be3735aa24df, type: 3}
