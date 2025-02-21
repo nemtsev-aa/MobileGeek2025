@@ -71,6 +71,7 @@ public class UIManager : MonoBehaviour, IDisposable {
         _galleryPanel.ShareCharacter += OnShareCharacter;
 
         _createPanel.BackToMainClicked += OnBackToMainClicked;
+        _aboutPanel.BackToMainClicked += OnBackToMainClicked;
     }
 
     private void RemoveListeners() {
@@ -84,6 +85,7 @@ public class UIManager : MonoBehaviour, IDisposable {
         _galleryPanel.ShareCharacter -= OnShareCharacter;
 
         _createPanel.BackToMainClicked -= OnBackToMainClicked;
+        _aboutPanel.BackToMainClicked -= OnBackToMainClicked;
     }
 
 
